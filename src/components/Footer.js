@@ -21,7 +21,7 @@ export default function Footer() {
               <FaGoogle className="w-10 inline-block mb-4" /></a>
             <a href="https://www.linkedin.com/in/dicktonye" className="linkedin social">
               <FaLinkedin className="w-10 inline-block mb-4" /></a>
-            <a href="https://www.github.com/dicktonye" className="github social">
+            <a href="https://www.github.com/tonyedick" className="github social">
               <FaGithub className="w-10 inline-block mb-4" /></a>
           </div>
         </div>
