@@ -13,8 +13,8 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          I am a Full Stack Developer with 3 years experience building amazing solutions. I am open to remote work, collaborations and partnerships.
-          Some tools and frameworks I use are displayed below.
+          I am a Full Stack Developer with 3 years experience building amazing solutions. I am open to remote work, collaboration and partnership.
+          Some tools, frameworks I use are displayed below.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
