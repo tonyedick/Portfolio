@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "React",
     description:
       "A simple React app with amazing features like track updates, reactions and login dashboard. Users can create account and upload audio tracks",
-    image: "./project-5.gif",
+    image: "./project-4.gif",
     link: "https://linkedin.com/in/dicktonye",
   },
   
@@ -45,7 +45,7 @@ export const projects = [
     title: "Ayaweisoft",
     subtitle: "Website Redesign",
     description:
-      "A redesign of Ayaweisoft company website from an old version to a more responsive and interactive platform",
+      "A redesign of Ayaweisoft company website from an old website to a more responsive and interactive website using Bootstrap 5 and SASS",
     image: "./project-6.gif",
     link: "https://ayaweisoft.com",
   },
