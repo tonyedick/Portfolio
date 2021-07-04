@@ -21,7 +21,7 @@ export const projects = [
     description:
       "Built a full school management system for a school based in Port Harcourt. Redesigned the school website and added responsive dashboard using Material UI",
     image: "./project-3.gif",
-    link: "https://eggheadschools.com",
+    link: "https://dicktonye.com",
   },
   {
     title: "Epic Track App",
