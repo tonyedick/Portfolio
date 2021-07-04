@@ -28,8 +28,26 @@ export const projects = [
     subtitle: "React",
     description:
       "A simple React app with amazing features like track updates, reactions and login dashboard. Users can create account and upload audio tracks",
-    image: "./project-4.gif",
+    image: "./project-5.gif",
     link: "https://linkedin.com/in/dicktonye",
+  },
+  
+  {
+    title: "Glistars Online Store",
+    subtitle: "Multivendor ecommerce website",
+    description:
+      "Glisters is a Nigerian ecommerce company for Nigerians. With features like vendour registration and complete marketplace",
+    image: "./project-5.gif",
+    link: "https://linkedin.com/in/dicktonye",
+  },
+  
+  {
+    title: "Ayaweisoft",
+    subtitle: "Website Redesign",
+    description:
+      "A redesign of Ayaweisoft company website from an old version to a more responsive and interactive platform",
+    image: "./project-6.gif",
+    link: "https://ayaweisoft.com",
   },
 ];
 
