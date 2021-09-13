@@ -36,9 +36,9 @@ export const projects = [
     title: "Glistars Online Store",
     subtitle: "Multivendor ecommerce website",
     description:
-      "Glisters is a Nigerian ecommerce company for Nigerians. With features like vendour registration and complete marketplace",
+      "Glistars is a Nigerian ecommerce company for Nigerians. With features like vendour registration and complete marketplace",
     image: "./project-5.gif",
-    link: "https://linkedin.com/in/dicktonye",
+    link: "https://glistarsstore.com",
   },
   
   {
