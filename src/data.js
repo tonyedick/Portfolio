@@ -3,7 +3,7 @@ export const projects = [
     title: "PBE Organics",
     subtitle: "Ecommerce Development",
     description:
-      "An ecommerce platform that sells organic products and skin care products to customers in Nigeria and abroad.",
+      "An ecommerce platform (built with WordPress) that sells organic products and skin care products to customers in Nigeria and around Africa.",
     image: "./project-1.gif",
     link: "https://pbeorganics.com",
   },
@@ -19,9 +19,9 @@ export const projects = [
     title: "Eggheads International School",
     subtitle: "School Management System",
     description:
-      "Built a full school management system for a school based in Port Harcourt. Redesigned the school website and added responsive dashboard using Material UI",
+      "Built a full ERP software (school management system) for a school based in Port Harcourt. Redesigned the school website and added responsive dashboard using Material UI",
     image: "./project-3.gif",
-    link: "https://dicktonye.com",
+    link: "https://eggheadsintlschool.com",
   },
   {
     title: "Epic Track App",
@@ -36,7 +36,7 @@ export const projects = [
     title: "Glistars Online Store",
     subtitle: "Multivendor ecommerce website",
     description:
-      "Glistars is a Nigerian ecommerce company for Nigerians. With features like vendour registration and complete marketplace",
+      "Glistars Store is a Nigerian ecommerce company for customers and merchants all over the world. With features like vendour registration , it is a complete marketplace",
     image: "./project-5.gif",
     link: "https://glistarsstore.com",
   },
@@ -85,8 +85,8 @@ export const testimonials = [
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
-  "Node",
+  "Node.js",
+  "PHP Laravel8",
   "GraphQL",
   "Material UI",
 ];
