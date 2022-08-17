@@ -46,7 +46,7 @@ export const projects = [
       "An ecommerce platform (built with PHP framework) that connects merchants, store owners, manufacturers of a wide range of products to customers in Nigeria and around Africa.",
     image: "./project-11.gif",
     link: "https://glistarsstore.com",
-  }
+  },
 ];
 
 export const testimonials = [
