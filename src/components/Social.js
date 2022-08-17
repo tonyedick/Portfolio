@@ -13,7 +13,7 @@ export default function Social() {
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
               Follow me on Social Media
             </h1>
-            <a href="https://www.twitter.com/dick_teejay" className="twitter social">
+            <a href="https://www.twitter.com/tonye_dick" className="twitter social">
               <FaTwitter className="w-10 inline-block mb-4" /></a>
             <a href="https://www.facebook.com/dick.teejay" className="facebook social">
               <FaFacebook className="w-10 inline-block mb-4" /></a>
