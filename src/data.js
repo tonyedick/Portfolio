@@ -24,21 +24,21 @@ export const projects = [
     link: "https://eggheadsintlschool.com",
   },
   {
-    title: "Epic Track App",
-    subtitle: "React",
+    title: "Fashion Ecommerce website - Ongoing project",
+    subtitle: "Modest Couture",
     description:
-      "A simple React app with amazing features like track updates, reactions and login dashboard. Users can create account and upload audio tracks",
+      "Modest couture is an Afro infused and urban brand founded in Canada, they deal in t-shirts, hoodies, tank tops, joggers, ready to wear",
     image: "./project-4.gif",
     link: "https://linkedin.com/in/dicktonye",
   },
   
   {
-    title: "Glistars Online Store",
-    subtitle: "Multivendor ecommerce website",
+    title: "Sojilearn - ongoing project",
+    subtitle: "Online Tech Training Institute",
     description:
-      "Glistars Store is a Nigerian ecommerce company for customers and merchants all over the world. With features like vendour registration , it is a complete marketplace",
+      "Sojilearn is a Technology Workforce Development company that helps people learn premium technology skills virtually and partners with companies to hire the best talents and invest in workforce development. Currently with learners from 19 countries",
     image: "./project-5.gif",
-    link: "https://glistarsstore.com",
+    link: "https://sojilearn.com",
   },
   
   {
