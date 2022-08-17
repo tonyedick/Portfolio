@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "Modest Couture",
     description:
       "Modest couture is an Afro infused and urban brand founded in Canada, they deal in t-shirts, hoodies, tank tops, joggers, ready to wear",
-    image: "./project-4.gif",
+    image: "./project-7.gif",
     link: "https://linkedin.com/in/dicktonye",
   },
   
