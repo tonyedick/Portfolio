@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "PBE Organics",
-    subtitle: "Ecommerce Development",
+    title: "Glistars Store",
+    subtitle: "E-commerce Website Project",
     description:
-      "An ecommerce platform (built with WordPress) that sells organic products and skin care products to customers in Nigeria and around Africa.",
+      "An ecommerce platform (built with PHP framework) that connects merchants, store owners, manufacturers of a wide range of products to customers in Nigeria and around Africa.",
     image: "./project-1.gif",
-    link: "https://pbeorganics.com",
+    link: "https://glistarsstore.com",
   },
   {
     title: "Abundant Health Specialist Hospital",
