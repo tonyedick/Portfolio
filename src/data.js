@@ -24,20 +24,20 @@ export const projects = [
     link: "https://ayaweisoft.com",
   },
   {
-    title: "Glistars Store",
-    subtitle: "E-commerce Website Project",
-    description:
-      "An ecommerce platform (built with PHP framework) that connects merchants, store owners, manufacturers of a wide range of products to customers in Nigeria and around Africa.",
-    image: "./project-11.gif",
-    link: "https://glistarsstore.com",
-  },
-  {
     title: "Eggheads International School",
     subtitle: "School Management System",
     description:
       "Built a full ERP software (school management system) for a school based in Port Harcourt. Redesigned the school website and added responsive dashboard using Material UI",
     image: "./project-3.gif",
     link: "https://eggheadsintlschool.com",
+  },
+  {
+    title: "Glistars Store",
+    subtitle: "E-commerce Website Project",
+    description:
+      "An ecommerce platform (built with PHP framework) that connects merchants, store owners, manufacturers of a wide range of products to customers in Nigeria and around Africa.",
+    image: "./project-11.gif",
+    link: "https://glistarsstore.com",
   },
   {
     title: "Sojilearn - ongoing project",
