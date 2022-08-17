@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "E-commerce Website Project",
     description:
       "An ecommerce platform (built with PHP framework) that connects merchants, store owners, manufacturers of a wide range of products to customers in Nigeria and around Africa.",
-    image: "./project-1.gif",
+    image: "./project-11.gif",
     link: "https://glistarsstore.com",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "Modest Couture",
     description:
       "Modest couture is an Afro infused and urban brand founded in Canada, they deal in t-shirts, hoodies, tank tops, joggers, ready to wear",
-    image: "./project-7.gif",
+    image: "./project-1.gif",
     link: "https://linkedin.com/in/dicktonye",
   },
   
@@ -37,7 +37,7 @@ export const projects = [
     subtitle: "Online Tech Training Institute",
     description:
       "Sojilearn is a Technology Workforce Development company that helps people learn premium technology skills virtually and partners with companies to hire the best talents and invest in workforce development. Currently with learners from 19 countries",
-    image: "./project-5.gif",
+    image: "./project-55.gif",
     link: "https://sojilearn.com",
   },
   
