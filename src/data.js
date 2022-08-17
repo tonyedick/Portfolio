@@ -32,14 +32,6 @@ export const projects = [
     link: "https://eggheadsintlschool.com",
   },
   {
-    title: "Glistars Store",
-    subtitle: "E-commerce Website Project",
-    description:
-      "An ecommerce platform (built with PHP framework) that connects merchants, store owners, manufacturers of a wide range of products to customers in Nigeria and around Africa.",
-    image: "./project-11.gif",
-    link: "https://glistarsstore.com",
-  },
-  {
     title: "Sojilearn - ongoing project",
     subtitle: "Online Tech Training Institute",
     description:
@@ -47,6 +39,14 @@ export const projects = [
     image: "./project-55.gif",
     link: "https://sojilearn.com",
   },
+  {
+    title: "Glistars Store",
+    subtitle: "E-commerce Website Project",
+    description:
+      "An ecommerce platform (built with PHP framework) that connects merchants, store owners, manufacturers of a wide range of products to customers in Nigeria and around Africa.",
+    image: "./project-11.gif",
+    link: "https://glistarsstore.com",
+  }
 ];
 
 export const testimonials = [
