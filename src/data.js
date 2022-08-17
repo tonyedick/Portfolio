@@ -14,30 +14,6 @@ export const projects = [
       "Modest couture is an Afro infused and urban brand founded in Canada, they deal in t-shirts, hoodies, tank tops, joggers, ready to wear",
     image: "./project-1.gif",
     link: "https://linkedin.com/in/dicktonye",
-  },  
-  {
-    title: "Ayaweisoft",
-    subtitle: "Website Redesign",
-    description:
-      "A redesign of Ayaweisoft company website from an old website to a more responsive and interactive website using Bootstrap 5 and SASS",
-    image: "./project-6.gif",
-    link: "https://ayaweisoft.com",
-  },
-  {
-    title: "Eggheads International School",
-    subtitle: "School Management System",
-    description:
-      "Built a full ERP software (school management system) for a school based in Port Harcourt. Redesigned the school website and added responsive dashboard using Material UI",
-    image: "./project-3.gif",
-    link: "https://eggheadsintlschool.com",
-  },
-  {
-    title: "Sojilearn - ongoing project",
-    subtitle: "Online Tech Training Institute",
-    description:
-      "Sojilearn is a Technology Workforce Development company that helps people learn premium technology skills virtually and partners with companies to hire the best talents and invest in workforce development. Currently with learners from 19 countries",
-    image: "./project-55.gif",
-    link: "https://sojilearn.com",
   },
   {
     title: "Glistars Store",
@@ -47,6 +23,30 @@ export const projects = [
     image: "./project-11.gif",
     link: "https://glistarsstore.com",
   },
+  {
+    title: "Eggheads International School",
+    subtitle: "School Management System",
+    description:
+      "Built a full ERP software (school management system) for a school based in Port Harcourt. Redesigned the school website and added responsive dashboard using Material UI",
+    image: "./project-3.gif",
+    link: "https://eggheadsintlschool.com",
+  },
+   {
+    title: "Ayaweisoft",
+    subtitle: "Website Redesign",
+    description:
+      "A redesign of Ayaweisoft company website from an old website to a more responsive and interactive website using Bootstrap 5 and SASS",
+    image: "./project-6.gif",
+    link: "https://ayaweisoft.com",
+  },
+  {
+    title: "Sojilearn - ongoing project",
+    subtitle: "Online Tech Training Institute",
+    description:
+      "Sojilearn is a Technology Workforce Development company that helps people learn premium technology skills virtually and partners with companies to hire the best talents and invest in workforce development. Currently with learners from 19 countries",
+    image: "./project-55.gif",
+    link: "https://sojilearn.com",
+  },  
 ];
 
 export const testimonials = [
