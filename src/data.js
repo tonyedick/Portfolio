@@ -31,14 +31,6 @@ export const projects = [
     image: "./project-3.gif",
     link: "https://eggheadsintlschool.com",
   },
-   {
-    title: "Ayaweisoft",
-    subtitle: "Website Redesign",
-    description:
-      "A redesign of Ayaweisoft company website from an old website to a more responsive and interactive website using Bootstrap 5 and SASS",
-    image: "./project-6.gif",
-    link: "https://ayaweisoft.com",
-  },
   {
     title: "Sojilearn - ongoing project",
     subtitle: "Online Tech Training Institute",
