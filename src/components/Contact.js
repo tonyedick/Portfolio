@@ -1,7 +1,5 @@
 // src/components/Contact.js
 import React from "react";
-import {validateEmail} from "../utils"; 
-
 
 export default function Contact() {
   // eslint-disable-next-line
@@ -20,19 +18,19 @@ export default function Contact() {
     }
   // eslint-disable-next-line
 
-    const getIsFormValid = () => { 
-      return ( 
-        name &&
-        validateEmail(email) && 
-        message.value.length >= 15
-      ); 
-    }; 
+//     const getIsFormValid = () => { 
+//       return ( 
+//         name &&
+//         validateEmail(email) && 
+//         message.value.length >= 15
+//       ); 
+//     }; 
 
-    const clearForm = () => { 
-      setName(""); 
-      setEmail(""); 
-      setMessage(""); 
-    }; 
+//     const clearForm = () => { 
+//       setName(""); 
+//       setEmail(""); 
+//       setMessage(""); 
+//     }; 
 
     function handleSubmit(e) {
       e.preventDefault();
@@ -43,7 +41,6 @@ export default function Contact() {
       })
         .then(() => alert("Message sent!"))
         .catch((error) => alert(error));
-      clearForm(); 
     }
     
   return (
@@ -86,7 +83,6 @@ export default function Contact() {
           </div>
         </div>
         <form
-          onSubmit={handleSubmit}
           netlify
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
@@ -104,10 +100,8 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              value={name} 
-              onChange={(e) => { 
-                setName(e.target.value); 
-              }} 
+              id="name"
+              name="name"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -117,10 +111,8 @@ export default function Contact() {
             </label>
             <input
               type="email"
-              value={email} 
-              onChange={(e) => { 
-               setEmail(e.target.value); 
-              }} 
+              id="email"
+              name="email"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -132,17 +124,14 @@ export default function Contact() {
             </label>
             <textarea
               type="text"
-              value={message} 
-              onChange={(e) => { 
-                setMessage(e.target.value); 
-              }} 
+              id="message"
+              name="message"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             />
           </div>
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-            disabled={!getIsFormValid()}>
             Submit
           </button>
         </form>
