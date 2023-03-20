@@ -1,5 +1,7 @@
 // src/components/Contact.js
 import React from "react";
+import {validateEmail} from "../utils"; 
+
 
 export default function Contact() {
   // eslint-disable-next-line
@@ -17,6 +19,21 @@ export default function Contact() {
         .join("&");
     }
   // eslint-disable-next-line
+
+    const getIsFormValid = () => { 
+      return ( 
+        name &&
+        validateEmail(email) && 
+        message.value.length >= 15
+      ); 
+    }; 
+
+    const clearForm = () => { 
+      setName(""); 
+      setEmail(""); 
+      setMessage(""); 
+    }; 
+
     function handleSubmit(e) {
       e.preventDefault();
       fetch("/", {
@@ -26,6 +43,7 @@ export default function Contact() {
       })
         .then(() => alert("Message sent!"))
         .catch((error) => alert(error));
+      clearForm(); 
     }
     
   return (
@@ -49,8 +67,8 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                9 Miller Close, Cecilia<br />
-                Iwofe Road, Rivers State, NG
+                Agbaje Akio Street, Okeafo GRA,<br />
+                Iwo, Osun State, NG
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -85,8 +103,10 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              id="name"
-              name="name"
+              value={name} 
+              onChange={(e) => { 
+                setName(e.target.value); 
+              }} 
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -96,8 +116,10 @@ export default function Contact() {
             </label>
             <input
               type="email"
-              id="email"
-              name="email"
+              value={email} 
+              onChange={(e) => { 
+               setEmail(e.target.value); 
+              }} 
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -108,13 +130,17 @@ export default function Contact() {
               Message
             </label>
             <textarea
-              id="message"
-              name="message"
+              type="text"
+              value={message} 
+              onChange={(e) => { 
+                setMessage(e.target.value); 
+              }} 
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             />
           </div>
           <button
             type="submit"
+            disabled={!getIsFormValid()}
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
           </button>
