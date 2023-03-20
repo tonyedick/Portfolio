@@ -24,7 +24,7 @@ export default function Contact() {
       return ( 
         name &&
         validateEmail(email) && 
-        message.value.length >= 15
+        email
       ); 
     }; 
 
